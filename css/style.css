@@ -1,0 +1,19 @@
+.body {
+
+    
+}
+.header_{
+    background-color: #015501;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_ .logo {
+    width: 100px;
+}
+.header_ .menu {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
