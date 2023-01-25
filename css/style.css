@@ -1,19 +1,45 @@
 .body {
 
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header_{
-    background-color: #015501;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .header_ .logo {
-    width: 100px;
+    width: 150px;
 }
 .header_ .menu {
-    background-color: red;
+    
     display: flex;
     align-items: center;
     height: 100%;
+}
+.header_ navi li a {
+    color: #920000;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.header_ navi li a:hover{
+    background-color: #560000;
+
+
+}
+.container {
+    max-width: 1440px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+
+}
+.container .img-title{
+    width: 350px;
+
 }
