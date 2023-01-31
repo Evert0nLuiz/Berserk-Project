@@ -37,9 +37,43 @@
     margin:0 auto;
     display: flex;
     align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
 
 }
 .container .img-title{
-    width: 350px;
+    max-width: 450px;
+
+}
+.container .description{
+     color: #920000;
+     width: 85%;
+     font-size: 17px;
+     margin: 30px 0;
+
+}
+.container .button{
+
+    background-color: #560000;
+    color: #000;
+    padding: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    transition: 0.5s all ease-in-out;
+}
+
+.container.button:hover{
+    transform: scale(1.1);
+
+}
+.background_berserk{
+    position: absolute; 
+    background-color: red;
+    z-index: -1;
+    height: 117vh;
+    width: 98vw;
 
 }
